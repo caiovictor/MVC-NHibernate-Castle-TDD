@@ -1,0 +1,4 @@
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Core\bin\Debug\Core.dll
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Core\bin\Debug\Core.pdb
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Core\obj\Debug\Core.dll
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Core\obj\Debug\Core.pdb

@@ -1,0 +1,4 @@
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Dao\bin\Debug\Dao.dll
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Dao\bin\Debug\Dao.pdb
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Dao\obj\Debug\Dao.dll
+c:\users\caio cordeiro\documents\visual studio 2015\Projects\MVC-NHibernate-Castle-TDD\Dao\obj\Debug\Dao.pdb

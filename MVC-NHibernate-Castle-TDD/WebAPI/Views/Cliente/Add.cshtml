@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Add";
+    @model  Core.Entity.Cliente
+}
+
+<script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+
+<h2>Clientes</h2>
+
+<header class="panel-heading font-bold h4">Novo Cliente</header>
+
+<div class="panel-body">
+
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+
+    @Html.LabelFor(model => model.Nome, new { @class = "label-form" })
+    @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+    @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(model => model.Telefone, new { @class = "label-form" })
+    @Html.EditorFor(model => model.Telefone, new { htmlAttributes = new { @class = "form-control" } })
+    @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(model => model.Endereco, new { @class = "label-form" })
+    @Html.EditorFor(model => model.Endereco, new { htmlAttributes = new { @class = "form-control" } })
+    @Html.ValidationMessageFor(model => model.Endereco, "", new { @class = "text-danger" })
+
+    <br />
+    <input type="submit" class="btn btn-primary" id="AddEdit" value="Salvar" />
+
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#AddEdit').click(function () {
+            if ($("#Nome").val() != "") {
+                insertUpdate();
+            } else
+                swal("Ops!", "Informe o nome do cliente", "warning");
+        })
+    });
+
+</script>
