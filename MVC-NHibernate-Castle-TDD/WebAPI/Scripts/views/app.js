@@ -60,7 +60,7 @@ function deleteCliente(id) {
     }, function () {
 
         $.ajax({
-            type: "POST",
+            type: "DELETE",
             url: "/api/api/Delete?Id=" + id,
             contentType: "application/json; charset=utf-8",
             success: function (response) {
