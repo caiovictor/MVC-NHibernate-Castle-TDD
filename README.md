@@ -1,2 +1,2 @@
 # MVC-NHibernate-Castle-TDD
-Projeto de aprendizagem de Castle, NHibernate e TDD.
+Projeto com Castle, NHibernate e TDD.
