@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace WebAPI.Infra
 {
-    public class WindsorInstaller : IWindsorInstaller
+    public class CastleInstaller : IWindsorInstaller
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {

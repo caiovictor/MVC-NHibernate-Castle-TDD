@@ -205,7 +205,7 @@
     <Compile Include="Infra\CastleUoWInterceptor.cs" />
     <Compile Include="Infra\ClienteCastleInstaller.cs" />
     <Compile Include="Infra\UoWHelper.cs" />
-    <Compile Include="Infra\WindsorInstaller.cs" />
+    <Compile Include="Infra\CastleInstaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
